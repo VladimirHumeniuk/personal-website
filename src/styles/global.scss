@@ -1,0 +1,46 @@
+@import './reboot.scss';
+
+:root {
+  --c-primary: #347eff;
+  --c-background: #fefdfe;
+}
+
+@font-face{
+  font-family: 'Comfortaa';
+  src: url('../assets/fonts/Comfortaa-Regular.woff2') format('woff2');
+  font-variant: normal;
+}
+
+@font-face{
+  font-family: 'Montserrat';
+  src: url('../assets/fonts/Montserrat-Regular.woff2') format('woff2');
+  font-variant: normal;
+}
+
+html,
+body {
+  font-family: 'Montserrat';
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: var(--c-background);
+  height: auto;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Comfortaa';
+}
+
+p {
+  line-height: 1.6;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 24px;
+}
