@@ -101,7 +101,7 @@
       content: '';
       position: absolute;
       z-index: 2;
-      background-color: #fff;
+      background-color: var(--c-background);
     }
 
     &::before {

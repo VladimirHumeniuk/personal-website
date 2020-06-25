@@ -1,7 +1,7 @@
 <script>
   import { db } from './../firebase.js';
   import { collectionData } from 'rxfire/firestore';
-  import { startWith, switchMap } from 'rxjs/operators';
+  import { startWith } from 'rxjs/operators';
 
   import Container from '../components/Container.svelte';
   import SkillBlock from '../components/SkillBlock.svelte';
@@ -32,9 +32,12 @@
   @import '../styles/variables';
 
   .skills {
-    padding-bottom: 40px;
+    padding-bottom: 90px;
     padding-left: 15px;
     padding-right: 15px;
+    overflow: hidden;
+    z-index: 2;
+    position: relative;
   }
 
   .skills__list {

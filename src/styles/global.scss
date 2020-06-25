@@ -1,8 +1,10 @@
-@import './reboot.scss';
+@import './reboot';
+@import './variables';
 
 :root {
   --c-primary: #347eff;
   --c-background: #fefdfe;
+  --c-accent: #ff6ea3;
 }
 
 @font-face{
@@ -23,6 +25,10 @@ body {
   width: 100%;
   padding: 0;
   margin: 0;
+
+  @media (max-width: $mq-sm) {
+    font-size: 14px;
+  }
 }
 
 body {

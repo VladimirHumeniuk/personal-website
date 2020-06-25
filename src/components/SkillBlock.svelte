@@ -26,7 +26,7 @@
   </div>
 </div>
 
-<style type="text/scss">
+<style lang="scss">
   .skill-block {
     --border-radius: 14px;
 
